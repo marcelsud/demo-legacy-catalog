@@ -1,0 +1,9 @@
+version: '2'
+services:
+  demo:
+    image: marcelsud/demo:master
+    stdin_open: true
+    tty: true
+    labels:
+      io.rancher.container.pull_image: always
+

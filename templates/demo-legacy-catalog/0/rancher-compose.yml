@@ -1,0 +1,7 @@
+.catalog:
+  name: demo-legacy-catalog # Name of the versioned template of the Catalog Entry
+  version: v0.1.0 # Version of the versioned template of the Catalog Entry
+  description: Something here # Description of the versioned template of the Catalog Entry
+  uuid: 8459613a-54b1-11e8-9c2d-fa7ae01bbebc # Unique identifier to be used for upgrades. Please see note.
+  minimum_rancher_version: 1.6 # The minimum version of Rancher that supports the template
+  questions: #Used to request user input for configuration options
