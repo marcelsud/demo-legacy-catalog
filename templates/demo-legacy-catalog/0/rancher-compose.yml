@@ -5,3 +5,9 @@
   uuid: 8459613a-54b1-11e8-9c2d-fa7ae01bbebc # Unique identifier to be used for upgrades. Please see note.
   minimum_rancher_version: ">1.0.0 <2.0.0" # The minimum version of Rancher that supports the template
   questions: #Used to request user input for configuration options
+
+version: '2'
+services:
+  demo:
+    scale: 1
+    start_on_create: true
